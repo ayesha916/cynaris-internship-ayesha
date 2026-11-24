@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage demonstrating html5 
+    semantic elements and accessibility">
+    <title>html5 semantic webpage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="logo">My website</h2>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    <h1> Welcome to my first web page</h1>
+    <br> 
+    <br>
+    <header> 
+        <h2>my learning blog</h2>
+        <br>
+        <p> learning html 5 and web development</p>
+    </header>
+
+    <nav aria-label="/main navigation">
+        <a href="#home">home</a>
+        <a href="about">about</a>
+        <a href="article">article</a>
+    </nav>
+
+<section class="card-section">
+    <h1>Our Services</h1>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h2>Web Development</h2>
+            <p>Learn how to create modern websites.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="card">
+            <h2>UI Design</h2>
+            <p>Design attractive and user-friendly interfaces.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="card">
+            <h2>Programming</h2>
+            <p>Improve your coding and problem-solving skills.</p>
+            <button>Read More</button>
+        </div>
+
+    </div>
+</section>
+
+
+<br>
+    <main id="home">
+        <article id="article">
+            <h2>introduction to html5</h2>
+            <p>html5 is used to create the structure of web page</p>
+<br>
+<br>
+            <section 
+            aria-labelledby="semantic-heading">
+                <h3 id="semantic-heading">semantic elements</h3>
+                <p>semantic elements are used to give meaning to the content of a web page</p>
+            </section>
+        </article>
+<br>
+        <aside aria-label="related information">
+            <h3>related topics</h3>
+            <p> learn css,javascript and web development </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy;2026 my learning development</p>
+    </footer>
+</body>
+</html>
