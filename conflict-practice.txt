@@ -1,1 +1,1 @@
-This is my original project message.
+This is the updated message from the conflict practice branch.
